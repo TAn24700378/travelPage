@@ -52,6 +52,10 @@
     border-style: none;
 }
 
+.card-img-size {
+    width: 10px; height: 10px;
+}
+
 /*畫中線*/
 .outer-line {
     width: 40%;

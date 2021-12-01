@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TravelPage</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="/assets/images/travel.ico"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="angular.min.js"></script>
@@ -73,7 +74,7 @@
 
     <div class="d-fles text-center zoneFont pt-5">{{ zone }}</div>
     <div class="container">
-        <zone-info></zone-info>
+        <zone-info ng-repeat="placeInformations in displayPlaceInformation"></zone-info>
         <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-center">
