@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW" ng-app="travelPage">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,6 @@
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -74,7 +73,12 @@
 
     <div class="d-fles text-center zoneFont pt-5">{{ zone }}</div>
     <div class="container">
-        <zone-info ng-repeat="placeInformations in displayPlaceInformation"></zone-info>
+        <zone-info ng-repeat="placeInformations in displayPlaceInformation"
+        zone-picture1="{{ placeInformations.Picture1  }}"
+        zone-name="{{ placeInformations.Name }}"
+        zone-opentime="{{ placeInformations.Opentime }}"
+        zone-add="{{ placeInformations.Add }}"
+        zone-tel="{{ placeInformations.Tel }}"></zone-info>
         <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-center">

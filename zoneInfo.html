@@ -1,21 +1,20 @@
 <div class="col-md-6" style="padding :10px">
     <div class="card" style="height: 45rem;">
         <div class="card bg-dark text-white text-left">
-            <img class="bg-cover" height="300px" src='{{ placeInformations.Picture1 }}'>
+            <img class="bg-cover" height="300px" ng-src='{{ zonePicture1 }}'>
             <div class="card-img-overlay d-flex justify-content-between align-items-end p-0 px-3"
                 style="background-color: rgba(0, 0, 0, .2)">
-                <h5" style="font-size: 20px;">{{ placeInformations.Name }}</h5>
+                <h5 ng-model="zoneName" style="font-size: 20px;">{{ zoneName }}</h5>
             </div>
         </div>
         <div class="card-body text-left">
-            <p><img class="card-img-size" src="assets/images/icons_clock.png">&nbsp;&nbsp;&nbsp;{{
-                placeInformations.Opentime }}</p>
-            <p><img class="card-img-size" src="assets/images/icons_pin.png">&nbsp;&nbsp;&nbsp;{{
-                placeInformations.Add }}
+            <p ng-model="zoneOpentime"><img class="card-img-size"
+                    src="assets/images/icons_clock.png">&nbsp;&nbsp;&nbsp;{{zoneOpentime }}</p>
+            <p ng-model="zoneAdd"><img class="card-img-size" src="assets/images/icons_pin.png">&nbsp;&nbsp;&nbsp;{{zoneAdd }}
             </p>
             <div class="d-flex justify-content-between align-items-end">
-                <p><img class="card-img-size"
-                        src="assets/images/icons_phone.png">&nbsp;&nbsp;&nbsp;{{placeInformations.Tel }}
+                <p ng-model="zoneTel"><img class="card-img-size"
+                        src="assets/images/icons_phone.png">&nbsp;&nbsp;&nbsp;{{zoneTel}}
                 </p>
             </div>
         </div>
