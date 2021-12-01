@@ -1,0 +1,92 @@
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.footerColor {
+    background: #559AC8;
+}
+
+.mt-30 {
+    margin-top: -30px !important;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.m-10 {
+    margin: 10px !important;
+}
+
+.m-lr50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titleFont {
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+}
+
+.searchBox {
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+.clickBox {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+}
+
+.buttonRadius {
+    border-radius: 5px;
+}
+
+.buttonSize {
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+
+/*畫中線*/
+.outer-line {
+    width: 40%;
+    border-bottom: 1px dashed #559AC8;
+}
+
+.set-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.zoneFont {
+    font-size: 36px;
+    color: #8A82CC;
+}
+
+/*一鍵到最上面*/
+.goTop {
+    position: fixed;
+    right: 10px;
+    bottom: 110px;
+}
+
+.goTopBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-arrow-alt-circle-up {
+    color: #559AC8;
+}
+
+.fa-arrow-alt-circle-down {
+    color: #559AC8;
+}
