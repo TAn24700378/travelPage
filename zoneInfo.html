@@ -4,17 +4,17 @@
             <img class="bg-cover" height="300px" ng-src='{{ zonePicture1 }}'>
             <div class="card-img-overlay d-flex justify-content-between align-items-end p-0 px-3"
                 style="background-color: rgba(0, 0, 0, .2)">
-                <h5 ng-model="zoneName" style="font-size: 20px;">{{ zoneName }}</h5>
+                <h5 style="font-size: 20px;">{{ zoneName }}</h5>
             </div>
         </div>
         <div class="card-body text-left">
-            <p ng-model="zoneOpentime"><img class="card-img-size"
+            <p><img class="card-img-size"
                     src="assets/images/icons_clock.png">&nbsp;&nbsp;&nbsp;{{zoneOpentime }}</p>
-            <p ng-model="zoneAdd"><img class="card-img-size" src="assets/images/icons_pin.png">&nbsp;&nbsp;&nbsp;{{zoneAdd }}
+            <p><img class="card-img-size" src="assets/images/icons_pin.png">&nbsp;&nbsp;&nbsp;{{ zoneAdd }}
             </p>
             <div class="d-flex justify-content-between align-items-end">
-                <p ng-model="zoneTel"><img class="card-img-size"
-                        src="assets/images/icons_phone.png">&nbsp;&nbsp;&nbsp;{{zoneTel}}
+                <p><img class="card-img-size"
+                        src="assets/images/icons_phone.png">&nbsp;&nbsp;&nbsp;{{ zoneTel }}
                 </p>
             </div>
         </div>
